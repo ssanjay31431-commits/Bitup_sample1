@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #26262B;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0A0A0A;
+    color: #F8F9FA;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0D0D10;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2D2D35;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E50914;
+  }
+}
+
+@layer utilities {
+  .text-glow-red {
+    text-shadow: 0 0 20px rgba(229, 9, 20, 0.7), 0 0 40px rgba(229, 9, 20, 0.4);
+  }
+  
+  .bg-radial-gradient {
+    background: radial-gradient(circle at 50% 30%, rgba(229, 9, 20, 0.15) 0%, rgba(10, 10, 10, 0.95) 70%, #0A0A0A 100%);
+  }
+
+  .bg-radial-accent {
+    background: radial-gradient(circle at top right, rgba(229, 9, 20, 0.18) 0%, transparent 60%);
+  }
+
+  .border-glow-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .border-glow-hover:hover {
+    border-color: rgba(229, 9, 20, 0.6);
+    box-shadow: 0 10px 30px -10px rgba(229, 9, 20, 0.35);
+  }
+}
+
+/* Hide scrollbar for category tabs on mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
