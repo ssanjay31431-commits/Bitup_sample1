@@ -134,7 +134,7 @@ export default function Footer({ onCategoryClick }) {
             <div className="space-y-2.5 text-xs">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-brand-red shrink-0 mt-0.5" />
-                <span>Shop 12, Food Street Avenue, Near City Mall, Metro Pillar 42</span>
+                <span>Palpannai, Mahalakshmi Nagar, Tiruchirappalli, Tamil Nadu 620008</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-brand-gold shrink-0" />

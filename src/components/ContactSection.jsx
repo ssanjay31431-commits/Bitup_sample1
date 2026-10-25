@@ -52,7 +52,7 @@ export default function ContactSection() {
               </div>
               <h3 className="text-white font-bold text-base mb-1">Shop Address</h3>
               <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                Shop 12, Food Street Avenue, Near City Mall, Metro Pillar 42, Your City, State - 560001
+                Palpannai, Mahalakshmi Nagar, Tiruchirappalli, Tamil Nadu 620008
               </p>
               <span className="inline-block mt-3 text-[11px] font-semibold text-brand-gold">
                 📍 Easy parking & express takeout counter
